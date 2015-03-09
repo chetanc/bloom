@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+
+	<modelVersion>4.0.0</modelVersion>
+	<groupId>com.fourinfo</groupId>
+	<artifactId>4info-bloom</artifactId>
+	<name>4info-bloom</name>
+	<version>1.2</version>
+	<scm>
+		<connection>scm:svn:https://svn.4info.com/svn/fourinfo/trunk/rhino/bloom/</connection>
+		<tag>HEAD</tag>
+		<url>https://svn.4info.com/svn/fourinfo/trunk/rhino/bloom/</url>
+	</scm>
+	<build>
+		<finalName>4info-bloom</finalName>
+		<plugins>
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-jar-plugin</artifactId>
+				<version>2.5</version>
+				<configuration>
+				<useDefaultManifestFile>true</useDefaultManifestFile>
+				<archive>
+                        <addMavenDescriptor>false</addMavenDescriptor>
+                        <compress>true</compress>
+                      
+                        <manifest>
+                            <addClasspath>true</addClasspath>
+                       </manifest>
+                    </archive>
+				</configuration>
+
+			</plugin>
+		</plugins>
+	</build>
+	<organization>
+		<name>4info</name>
+		<url>www.4info.com</url>
+	</organization>
+</project>
