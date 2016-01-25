@@ -6,7 +6,7 @@
 	<groupId>com.fourinfo</groupId>
 	<artifactId>4info-bloom</artifactId>
 	<name>4info-bloom</name>
-	<version>1.2</version>
+	<version>1.3-SNAPSHOT</version>
 	<scm>
 		<connection>scm:svn:https://svn.4info.com/svn/fourinfo/trunk/rhino/bloom/</connection>
 		<tag>HEAD</tag>
